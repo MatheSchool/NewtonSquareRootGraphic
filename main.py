@@ -6,12 +6,6 @@ def dFdx(x):   # Derivative function
 
 import numpy as np
 import matplotlib.pyplot as plt
- 
-x = np.linspace(-2,2,100)
-plt.figure(num="Newton")
-plt.plot(x, F(x))
-plt.grid('on')
-plt.show()
 
 rootValues = [4.0] # Initial value
 error = 0.001
